@@ -108,23 +108,55 @@ class Program
 
         */
 
-        int x = unchecked((int)0x00000001);
-        int mask = unchecked((int)0x80000000);
-        for(int i=0; i<32; i++){
-            if ((x & mask)==0){
-                Console.Write("0");
-            }
-            else{
-                Console.Write("1");
-            }
+        // int x = unchecked((int)0x00000001);
+        // int mask = unchecked((int)0x80000000);
+        // for(int i=0; i<32; i++){
+        //     if ((x & mask)==0){
+        //         Console.Write("0");
+        //     }
+        //     else{
+        //         Console.Write("1");
+        //     }
 
-            mask=mask>>1;
-        }
+        //     mask=mask>>1;
+        // }
 
 
         #endregion
 
+        #region [example-5] (set bit 5 of the number to 1)
+
+        uint number=0x00000000; // 0000 0000 0000 0000 0000 0000 0000 0000
+                                // decimal notation : 0
+        // uint number = 0; 
+        // uint number = 0x0;
+
+        uint mask=0x0000010;   // 0000 0000 0000 0000 0000 0000 0001 0000
+                                // decimal notation : 16
+
         
+        number=number|mask;    
+        // number ---> 0000 0000 0000 0000 0000 0000 0000 0000
+        // mask   ---> 0000 0000 0000 0000 0000 0000 0001 0000
+        //  | (or) --> 0000 0000 0000 0000 0000 0000 0001 0000
+        Console.WriteLine("New number value: "+number);
+
+
+        #endregion
+
+        #region [example-5.1] (set bit 17 of the number to 1)
+
+        uint number1=0x00000000; // 0000 0000 0000 0000 0000 0000 0000 0000
+        Console.WriteLine("Number1 value: "+number1);
+
+        uint mask1=0x00010000;   // 0000 0000 0000 0001 0000 0000 0000 0000
+        Console.WriteLine("Mask1 value: "+mask1);
+
+        number1=number1|mask1;
+        Console.WriteLine("Number1 new value: "+number1);
+
+        #endregion
+
         Console.ReadLine();
     }
 }
