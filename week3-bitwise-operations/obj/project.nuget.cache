@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "h+T50RIQNQMZXFZRNuuDLqIbXbg/zdlh0g2bea/xAG4RDJIm0SbQWUgix0p4ayFRdZPPd9Mdz7JKIipg8VDroQ==",
+  "dgSpecHash": "SGBKQpcwofjWkhBZ6Xhhtm/9ZtjO/9NxSBInXUGgaPEeFAb1Jlx78QPCWq+1QRfar8+7+xeAfdp3p4WaqEpkcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\90552\\algorithms\\algorithms\\week3-bitwise-operations\\week3-bitwise-operations.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\90552\\algorithms\\week3-bitwise-operations\\week3-bitwise-operations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\90552\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\90552\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\90552\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\90552\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
