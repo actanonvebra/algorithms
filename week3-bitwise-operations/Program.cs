@@ -100,7 +100,7 @@ class Program
 
         result, respectively for each bit value
         x -->       0000 0000 0000 0000 0000 0000 0000 0001
-        mask -->    0100 0000 0000 0000 0000 0000 0000 0001
+        mask -->    0000 0000 0000 0000 0000 0000 0000 0001
         result -->  0000 0000 0000 0000 0000 0000 0000 0001
 
         if block return false
