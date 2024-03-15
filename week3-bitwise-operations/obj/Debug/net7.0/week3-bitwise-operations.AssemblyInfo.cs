@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("week3-bitwise-operations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eca2bfbb3910117c9c14c3360e87f5edcdb2840b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6558b8d6d460b6220c0477025a154355c57ba4b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("week3-bitwise-operations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("week3-bitwise-operations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
