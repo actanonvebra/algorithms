@@ -239,6 +239,89 @@ class Program
 
         #region [example-9] (1 bits --> 0)
 
+        // uint a= 0xffbb00a0; // 1111 1111 1011 1011 0000 0000 1010 0000
+        // uint b=0x1;         // 0000 0000 0000 0000 0000 0000 0000 0001
+        // uint c=0xffffffe;   // 1111 1111 1111 1111 1111 1111 1111 1110
+        // /* for döngüsünde olanlar
+        // for döngüsünde olanlar
+        // i=0 iken
+
+        // 1111 1111 1011 1011 0000 0000 1010 0000
+        // 0000 0000 0000 0000 0000 0000 0000 0001
+        // 1111 1111 1111 1111 1111 1111 1111 1110
+
+        // a ile b and operatörüne girdi sonuç 0'a eşit değilse yani sonuç 1 ise içeri gir
+        // ancak burada a'nın ilk biti 0 b'nin ise 1 andlendiğinde sonuç 0 olacağından if içerisine girmedik.
+
+        // i=1,2,3 durumları içinde aynı şey geçerli tabi bu esnada
+        // b ve c shift ediliyor 
+        // dikkat edersen c ye hep 1 ekleniyor çünkü c nin yüksek seviyeli bitlerinde hep 1 var 
+        // bunlar kaybedilmesin istiyoruz.
+
+        // neyse 
+        // i=4 olduğunda sayılar şöyle görünecekler:
+        // 1111 1111 1011 1011 0000 0000 1010 0000
+        // 0000 0000 0000 0000 0000 0000 0010 0000
+        // 1111 1111 1111 1111 1111 1111 1101 1111 
+
+        // a yerinden oynamıyor
+        // b ve c her iterasyonda sola 1 kaydırılıyor, c ye sürekli 1 ekleniyor ki en öndeki 1 ler kaybolmasın.
+        // şimdi if içerisine geldik:
+
+        // a&b != 0 --> a ve b yi andlediğinde sonuç 0 değilse 1'dir dolayısıyla bakalım if'e girecek mi?
+        // 1111 1111 1011 1011 0000 0000 1010 0000
+        // 0000 0000 0000 0000 0000 0000 0010 0000
+        // if e girecek.
+        // if içinde yapılan şey şu 
+
+        // a = a & c 
+        
+        // bu ne işe yarıyor?
+        
+        // 1111 1111 1011 1011 0000 0000 1010 0000  -> a sayısı
+        // 1111 1111 1111 1111 1111 1111 1101 1111  -> c sayısı
+
+        // bunlar andlenip a ya aktarılıyor, yani a nın 1 olan biti artık 0 olacak çünkü
+        // 0 and 1 = 0 dır.
+        
+        // Sonuç olarak bu mantıkla gidildiğinde çıktılarda a nın sayısal değerinin artık 0 olduğunu
+        // çünkü 1 olan bitlerinin tamamının 0 landığını görmüş oluyoruz.
+        
+        // */
+        // Console.WriteLine("before a: "+a);
+        // Console.WriteLine("before b: "+b);
+        // Console.WriteLine("before c: "+c);
+        // for(int i=0; i<32; i++){
+        //     if((a&b)!=0){
+        //         a=a&c;
+        //     }
+        //     b=b<<1;
+        //     c=c<<1;
+        //     c=c+1;
+        // }
+        // Console.WriteLine("a: "+a);
+        // Console.WriteLine("b: "+b);
+        // Console.WriteLine("c: "+c);
+        #endregion
+
+        #region [example-10] (Move bits of number a to number b)
+
+        uint a=0x0000ffff; // 0000 0000 0000 0000 1111 1111 1111 1111
+        uint mask=0x1;     // 0000 0000 0000 0000 0000 0000 0000 0001
+        uint b=0x00000000; // 0000 0000 0000 0000 0000 0000 0000 0000
+
+        System.Console.WriteLine("before a: "+a);
+        System.Console.WriteLine("before b: "+b);
+
+        for(int i=0; i<32; i++){
+            if((a&mask)==1){
+                b=a|b;
+            }
+            mask=mask<<1;
+        }
+        System.Console.WriteLine("after a: "+a);
+        System.Console.WriteLine("after b: "+b);
+
         #endregion
 
         Console.ReadLine();
