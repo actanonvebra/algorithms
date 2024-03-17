@@ -1,0 +1,15 @@
+C:\Users\90552\algorithms\week3-bitwise-op-lab\bin\Debug\net8.0\week3-bitwise-op-lab.exe
+C:\Users\90552\algorithms\week3-bitwise-op-lab\bin\Debug\net8.0\week3-bitwise-op-lab.deps.json
+C:\Users\90552\algorithms\week3-bitwise-op-lab\bin\Debug\net8.0\week3-bitwise-op-lab.runtimeconfig.json
+C:\Users\90552\algorithms\week3-bitwise-op-lab\bin\Debug\net8.0\week3-bitwise-op-lab.dll
+C:\Users\90552\algorithms\week3-bitwise-op-lab\bin\Debug\net8.0\week3-bitwise-op-lab.pdb
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.AssemblyInfoInputs.cache
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.AssemblyInfo.cs
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.csproj.CoreCompileInputs.cache
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.sourcelink.json
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.dll
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\refint\week3-bitwise-op-lab.dll
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.pdb
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\week3-bitwise-op-lab.genruntimeconfig.cache
+C:\Users\90552\algorithms\week3-bitwise-op-lab\obj\Debug\net8.0\ref\week3-bitwise-op-lab.dll
