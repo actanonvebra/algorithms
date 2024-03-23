@@ -94,6 +94,9 @@ class Program{
         Console.WriteLine(Convert.ToString(result,toBase:2));
 
         #endregion
+        
+        
+        
         Console.ReadLine();
 
     }

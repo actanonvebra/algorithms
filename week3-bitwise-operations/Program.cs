@@ -2,8 +2,41 @@
 
 class Program
 {
+
+    static void write(int a){
+        Console.WriteLine(a);
+        write(a+1);
+    }
+
+    static void writeSafe1(int a){
+        if(a>10) return;
+        Console.WriteLine(a);
+        writeSafe1(a+1);
+    }
+
+    static void writeSafe2(int a){
+        if(a>10) return;
+        writeSafe2(a+1);
+        Console.WriteLine(a);
+    }
+
+
     static void Main(string[] args)
     {
+        #region Recursive 
+
+        // write metodu hatalıdır, dur noktası yoktur. Sonsuza gider (overflow).
+
+        // writeSafe1 metodu, ilk haline göre daha güvenlidir çünkü durma noktası if bloğuyla belirtildi.
+        writeSafe1(5);
+        // WriteSafe1 metodunun çıktısı sırasıyla 5 6 7 8 9 10 şeklindedir.
+
+        // writeSafe2 metoduda güvenilidir, dur noktası if bloğuyla bildirilmiştir.
+        writeSafe2(5);
+        // WriteSafe2 metodunun çıktısı sırasıyla 10 9 8 7 6 5 şeklindedir.
+
+        #endregion
+
         #region [example-1] & (and operator)
 
         // uint a = 1;  // 0000 0000 0000 0000 0000 0000 0000 0001
@@ -306,21 +339,21 @@ class Program
 
         #region [example-10] (Move bits of number a to number b)
 
-        uint a=0x0000ffff; // 0000 0000 0000 0000 1111 1111 1111 1111
-        uint mask=0x1;     // 0000 0000 0000 0000 0000 0000 0000 0001
-        uint b=0x00000000; // 0000 0000 0000 0000 0000 0000 0000 0000
+        // uint a=0x0000ffff; // 0000 0000 0000 0000 1111 1111 1111 1111
+        // uint mask=0x1;     // 0000 0000 0000 0000 0000 0000 0000 0001
+        // uint b=0x00000000; // 0000 0000 0000 0000 0000 0000 0000 0000
 
-        System.Console.WriteLine("before a: "+a);
-        System.Console.WriteLine("before b: "+b);
+        // System.Console.WriteLine("before a: "+a);
+        // System.Console.WriteLine("before b: "+b);
 
-        for(int i=0; i<32; i++){
-            if((a&mask)==1){
-                b=a|b;
-            }
-            mask=mask<<1;
-        }
-        System.Console.WriteLine("after a: "+a);
-        System.Console.WriteLine("after b: "+b);
+        // for(int i=0; i<32; i++){
+        //     if((a&mask)==1){
+        //         b=a|b;
+        //     }
+        //     mask=mask<<1;
+        // }
+        // System.Console.WriteLine("after a: "+a);
+        // System.Console.WriteLine("after b: "+b);
 
         #endregion
 
