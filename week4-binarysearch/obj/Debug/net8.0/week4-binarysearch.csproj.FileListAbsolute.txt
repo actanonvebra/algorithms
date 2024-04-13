@@ -1,0 +1,15 @@
+C:\Users\90552\algorithms\week4-binarysearch\bin\Debug\net8.0\week4-binarysearch.exe
+C:\Users\90552\algorithms\week4-binarysearch\bin\Debug\net8.0\week4-binarysearch.deps.json
+C:\Users\90552\algorithms\week4-binarysearch\bin\Debug\net8.0\week4-binarysearch.runtimeconfig.json
+C:\Users\90552\algorithms\week4-binarysearch\bin\Debug\net8.0\week4-binarysearch.dll
+C:\Users\90552\algorithms\week4-binarysearch\bin\Debug\net8.0\week4-binarysearch.pdb
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.AssemblyInfoInputs.cache
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.AssemblyInfo.cs
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.csproj.CoreCompileInputs.cache
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.sourcelink.json
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.dll
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\refint\week4-binarysearch.dll
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.pdb
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\week4-binarysearch.genruntimeconfig.cache
+C:\Users\90552\algorithms\week4-binarysearch\obj\Debug\net8.0\ref\week4-binarysearch.dll
