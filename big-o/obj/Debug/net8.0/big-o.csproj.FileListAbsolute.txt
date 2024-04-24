@@ -1,0 +1,15 @@
+C:\Users\90552\algorithms\big-o\bin\Debug\net8.0\big-o.exe
+C:\Users\90552\algorithms\big-o\bin\Debug\net8.0\big-o.deps.json
+C:\Users\90552\algorithms\big-o\bin\Debug\net8.0\big-o.runtimeconfig.json
+C:\Users\90552\algorithms\big-o\bin\Debug\net8.0\big-o.dll
+C:\Users\90552\algorithms\big-o\bin\Debug\net8.0\big-o.pdb
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.AssemblyInfoInputs.cache
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.AssemblyInfo.cs
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.csproj.CoreCompileInputs.cache
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.sourcelink.json
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.dll
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\refint\big-o.dll
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.pdb
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\big-o.genruntimeconfig.cache
+C:\Users\90552\algorithms\big-o\obj\Debug\net8.0\ref\big-o.dll
